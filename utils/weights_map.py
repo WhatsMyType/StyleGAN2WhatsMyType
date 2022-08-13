@@ -1,7 +1,7 @@
 import numpy as np
 
 available_weights = ['ffhq', 'car', 'cat', 'church', 'horse']
-weights_stylegan2_dir = 'weights/'
+weights_stylegan2_dir = '/content/StyleGAN2-TensorFlow-2.x/weights/'
 
 mapping_weights = [ 'Dense0/weight', 'Dense0/bias',
                     'Dense1/weight', 'Dense1/bias',
