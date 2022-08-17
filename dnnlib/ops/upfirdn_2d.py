@@ -63,7 +63,7 @@ def upfirdn_2d(x, k, upx=1, upy=1, downx=1, downy=1, padx0=0, padx1=0, pady0=0, 
 
 #----------------------------------------------------------------------------
 
-def _upfirdn_2d_ref(x, k, upx, upy, downx, downy, padx0, padx1, pady0, pady1, gpu=False):
+def _upfirdn_2d_ref(x, k, upx, upy, downx, downy, padx0, padx1, pady0, pady1, gpu=True):
     """Slow reference implementation of `upfirdn_2d()` using standard TensorFlow ops."""
 
     x = tf.convert_to_tensor(x)
